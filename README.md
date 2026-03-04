@@ -1,7 +1,7 @@
 """
 Online cycle-balance simulation for a switched linear system on a strongly connected digraph.
 
-What it does (aligned with your Problem 2 + Algorithm):
+What it does (aligned with Problem 2 + Algorithm):
 1) Build a strongly connected directed graph G.
 2) Assign edge weights w_ij = log || P_j^{-1} P_i ||, and set dwell time = 1 for all switches.
 3) Define a cycle score map Phi(C) (same structural form as your (16), with a minimal runnable surrogate).
